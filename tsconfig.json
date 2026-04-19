@@ -1,10 +1,11 @@
 {
   "compilerOptions": {
+    "types": ["jest", "node"],
     "baseUrl": "src",
     "forceConsistentCasingInFileNames": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "lib": ["ESNext"],
+    "lib": ["ESNext", "DOM"],
     "module": "CommonJS",
     "moduleResolution": "Node",
     "noUncheckedIndexedAccess": true,

@@ -1,17 +1,20 @@
 {
   "compilerOptions": {
     "types": ["jest", "node"],
-    "baseUrl": "src",
+    "paths": {
+      "*": ["./src/*"]
+    },
     "forceConsistentCasingInFileNames": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "lib": ["ESNext", "DOM"],
     "module": "CommonJS",
-    "moduleResolution": "Node",
+    "moduleResolution": "bundler",
     "noUncheckedIndexedAccess": true,
     "strictNullChecks": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
+    "rootDir": "src",
     "outDir": "dist",
     "removeComments": true,
     "resolveJsonModule": true,
